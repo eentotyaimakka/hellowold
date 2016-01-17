@@ -3,7 +3,8 @@ default: &default
   encoding: SQL_ASCII
   pool: 5
   username: ubuntu
-  password: tanakamt
+  password: ********
+  <<: ↑パスワードを設定してくださいね！
 
 development:
   <<: *default
